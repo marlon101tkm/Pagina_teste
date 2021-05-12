@@ -33,6 +33,13 @@
         border-radius: 5px;
     }
     
+    button:hover,
+    .tag:hover,
+    img:hover,
+    a:hover {
+        cursor: pointer;
+    }
+    
     #painel_esquerdo {
         display: flex;
         width: 300px;
