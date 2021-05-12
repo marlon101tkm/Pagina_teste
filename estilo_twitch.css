@@ -1,0 +1,229 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body,
+    p,
+    a,
+    nav {
+        font-family: Roobert, Inter, Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-weight: 600;
+    }
+    
+    div {
+        font-size: 100%;
+        font: inherit;
+    }
+    
+    button i {
+        color: gray;
+        font-size: 30px!important;
+    }
+    
+    #botao_busca {
+        margin: 10px 0 0 0;
+    }
+    
+    button {
+        border: none;
+        padding: 0px 16px;
+        position: relative;
+        font-size: 20.8px;
+        border-radius: 5px;
+    }
+    
+    button:hover,
+    .tag:hover,
+    img:hover,
+    a:hover {
+        cursor: pointer;
+    }
+    
+    #painel_esquerdo {
+        display: flex;
+        width: 300px;
+        margin: 0 100px 0 0;
+    }
+    
+    #painel_direito {
+        display: flex;
+        flex-direction: column;
+        width: 1400px;
+    }
+    
+    #cadastro_canal button,
+    #botao_barra,
+    #cadastro_geral button {
+        align-items: center;
+        background-color: #9147ff;
+        color: #fff;
+        padding: 0px 16px;
+        position: relative;
+        font-size: 20.8px;
+        border-radius: 5px;
+        margin-top: 20px;
+        padding: 10px;
+    }
+    
+    #botao_barra,
+    #entrar {
+        margin: 0 0 0 0!important;
+        padding: 5px!important;
+    }
+    /* Barra de Navegação */
+    
+    #barraNav {
+        height: 50px;
+    }
+    
+    #barraNav nav {
+        float: left;
+    }
+    
+    #pesquisa {
+        float: right;
+    }
+    
+    #barraNav svg {
+        width: 40px;
+        height: 40px;
+        float: left;
+    }
+    
+    #barraNav a {
+        padding: 10px 40px 0 0;
+        float: left;
+    }
+    
+    a {
+        color: black;
+        text-decoration: none;
+    }
+    
+    #barraNav input {
+        height: 30px;
+        margin: 10px 0 0 0;
+        float: left;
+        border-radius: 5px;
+        border: none;
+        background-color: #e5e5e5;
+        color: #7a7a7a;
+        width: 300px;
+    }
+    
+    button svg {
+        left: 0px;
+        width: 100%;
+        min-height: 100%;
+        top: 0px;
+    }
+    
+    .painel_itens {
+        display: flex;
+        list-style: none;
+    }
+    
+    #categorias p,
+    #canais_ao_vivo p {
+        width: 100%;
+        font-size: 20.8px!important;
+        padding: 0 0 10px 50px;
+    }
+    
+    #categorias p a,
+    .cor_letra {
+        color: #772DE8;
+    }
+    
+    .item_categoria {
+        float: left;
+        padding: 0px 8px;
+    }
+    
+    #cadastro_canal {
+        margin: 16px;
+        padding: 32px;
+    }
+    
+    #cadastro_canal img,
+    .icon_ao_vivo {
+        position: relative;
+        background-color: inherit;
+        width: 40px;
+        height: 40px;
+        border: none;
+        max-width: 100%;
+        border-radius: 9000px;
+    }
+    
+    #cadastro_geral {
+        margin: 16px;
+        padding: 32px;
+        flex-direction: column;
+        display: flex;
+        align-items: flex-start;
+    }
+    
+    .letras_grandes {
+        font-size: 30px;
+    }
+    
+    .letras_medias {
+        font-size: 20px;
+    }
+    
+    #canais_ao_vivo,
+    #categorias {
+        margin: 0 0 10px 100px;
+        background-color: #e1e1e4;
+    }
+    
+    .itens_ao_vivo {
+        padding: 0 8px;
+        float: left;
+        width: 600px;
+    }
+    
+    .icon_ao_vivo {
+        float: left;
+    }
+    
+    .img_ao_vivo {
+        width: 100%;
+    }
+    
+    .itens_ao_vivo h3 {
+        float: left;
+        padding: 10px 0 0 10px;
+    }
+    
+    .itens_ao_vivo p {
+        float: left;
+    }
+    
+    .tag {
+        float: left;
+        padding: 0 5px;
+        margin: 5px;
+        background-color: #eaeaeb;
+        border-radius: px;
+        color: #747479;
+        border-radius: 50px;
+        padding: 5px;
+    }
+    
+    .espaco_tag {
+        padding: 0 0 0 40px;
+    }
+    
+    .titulo_secao {
+        padding: 0 0 10px 0!important;
+    }
+    
+    #barra_fundo {
+        width: 100%;
+        background-color: #772DE8;
+        height: 30px;
+        float: left;
+    }
