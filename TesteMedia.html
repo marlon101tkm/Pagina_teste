@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body,
+        html {
+            height: 100%;
+        }
+        /* The hero image */
+        
+        .hero-image {
+            /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+            background-color: darkblue;
+            /* Set a specific height */
+            height: 50%;
+            width: 100%;
+            float: left;
+            /* Position and center the image to scale nicely on all screens */
+        }
+        /* Place text in the middle of the image */
+        
+        footer {
+            background-color: chartreuse;
+            float: left;
+        }
+        
+        .artigo {
+            background-color: chocolate;
+            margin: 10px 0 10px 0;
+            float: left;
+        }
+        
+        a {
+            background-color: red;
+            float: left;
+        }
+        
+        @media only screen and (max-width: 1920px) {
+            .artigo {
+                width: 40%;
+                margin: 5px;
+            }
+            a {
+                width: 10%;
+                margin: 0 10px 0 10px;
+            }
+        }
+        
+        @media only screen and (max-width: 800px) {
+            .artigo {
+                width: 23.5%;
+                margin: 5px;
+            }
+            a {
+                width: 10%;
+                margin: 0 10px 0 10px;
+            }
+        }
+        
+        @media only screen and (max-width: 500px) {
+            .artigo {
+                width: 100%;
+                margin: 5px;
+            }
+            a {
+                width: 100%;
+                margin: 10px 0 10px 0;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <a href="">Link 1</a>
+    <a href="">Link 2</a>
+    <a href="">Link 3</a>
+    <a href="">Link 4</a>
+
+    <div class="hero-image">
+
+    </div>
+    <div class="artigo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit dolore quibusdam aut quae. Vero voluptatem obcaecati aliquid fugit impedit ullam asperiores, sunt voluptate eligendi eius corrupti, velit amet nesciunt dolorem!</div>
+    <div class="artigo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi, magni. Modi ex natus, maxime qui quaerat earum consectetur vel saepe, dolore molestias ratione soluta eius! Vero corporis dolorum iure minus!</div>
+    <div class="artigo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, magnam. Nobis incidunt animi mollitia velit delectus eligendi nostrum cupiditate! Eum vitae tempore harum officiis veritatis earum, suscipit ab molestias? Perferendis?</div>
+    <div class="artigo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, nam commodi iure unde laudantium libero animi quas cum ex exercitationem repellat quae. Excepturi ab, animi quas molestias repellendus sit expedita.</div>
+    <footer>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita officia aut consequatur, veniam, repudiandae repellendus, earum ea provident odio tempora suscipit consequuntur iste optio dignissimos ipsam doloribus porro ab aspernatur?</p>
+    </footer>
+</body>
+
+</html>
