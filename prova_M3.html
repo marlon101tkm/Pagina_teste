@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&family=Nova+Slim&display=swap" rel="stylesheet">
+    <title>Document</title>
+
+    <style>
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+        }
+        /* The hero image */
+        
+        div {
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Baloo Tammudu 2', cursive;
+            font-size: 30px;
+            color: #8497ad;
+        }
+        
+        .feature,
+        #content,
+        #header,
+        #barra_azul,
+        #sign_up {
+            float: left;
+        }
+        
+        #content {
+            background-color: #eaedf0;
+        }
+        
+        #barra_azul {
+            background-color: #5995da;
+            width: 100%;
+            height: 30px;
+        }
+        
+        #header {
+            background-color: #b2d6ff;
+            width: 100%;
+        }
+        
+        @media only screen and (max-width: 1920px) {
+            #barra_azul {
+                width: 100%;
+                height: 50px;
+            }
+            #header {
+                width: 100%;
+                height: 200px;
+            }
+            #content {
+                width: 100%;
+                height: 300px;
+                position: absolute;
+                bottom: 0;
+            }
+            .feature {
+                width: 33.33%;
+                height: 200px;
+            }
+            #sign_up {
+                width: 100%;
+                height: 200px;
+                position: absolute;
+                bottom: 300px;
+            }
+        }
+        
+        @media only screen and (max-width: 800px) {
+            #barra_azul {
+                width: 100%;
+                height: 50px;
+            }
+            #header {
+                width: 100%;
+                height: 200px;
+            }
+            #content {
+                width: 100%;
+                height: 300px;
+                position: static;
+            }
+            .feature {
+                width: 50%;
+                height: 240px;
+            }
+            #sign_up {
+                width: 50%;
+                height: 240px;
+                position: static;
+            }
+        }
+        
+        @media only screen and (max-width: 500px) {
+            #barra_azul {
+                width: 100%;
+                height: 50px;
+            }
+            #header {
+                width: 100%;
+                height: 100px;
+            }
+            #content {
+                width: 100%;
+                height: 200px;
+                position: static;
+            }
+            .feature {
+                width: 100%;
+                height: 115px;
+            }
+            #sign_up {
+                width: 100%;
+                height: 115px;
+                position: static;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <div id="barra_azul"></div>
+    <div id="header"> [HEADER] </div>
+    <div id="content">[CONTENT]</div>
+    <div id="sign_up" style="background-color: #d6e9fe;">[SIGN UP]</div>
+    <div class="feature" style="background-color: #f5cf8e">[FEATURE]</div>
+    <div class="feature" style="background-color: #f09a9d;">[FEATURE]</div>
+    <div class="feature " style="background-color: #c8c6fa">[FEATURE]</div>
+
+</body>
+
+</html>
